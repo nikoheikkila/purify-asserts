@@ -1,12 +1,12 @@
 <h1 align="center">Purify-TS Asserts</h1>
-<p>
-  <img alt="Version" src="https://img.shields.io/badge/version-0.1.0-blue.svg?cacheSeconds=2592000" />
-  <a href="#" target="_blank">
-    <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" />
-  </a>
-</p>
 
-> Jest expectations for the purify-ts library
+![Version](https://img.shields.io/npm/v/purify-asserts)
+![Downloads](https://img.shields.io/npm/dw/purify-asserts)
+![License](https://img.shields.io/npm/l/purify-asserts)
+![GitHub issues](https://img.shields.io/github/issues/nikoheikkila/purify-asserts)
+![GitHub Repo stars](https://img.shields.io/github/stars/nikoheikkila/purify-asserts?style=social)
+
+> Jest expectations for the [**purify-ts**](https://gigobyte.github.io/purify/) library
 
 ## Install
 
@@ -17,7 +17,7 @@ yarn add --dev purify-asserts
 
 ## Usage
 
-Using matchers require to use the `expect.extend()` method of Jest.
+Using matchers requires to use the `expect.extend()` method of Jest. These should be imported and used at the beginning of your test suite above the first `describe()` block.
 
 Import all of the matchers:
 
@@ -50,7 +50,7 @@ expect.extend({ toBeJust, toBeNothing });
 👤 **Niko Heikkilä <yo@nikoheikkila.fi>**
 
 - Website: <https://nikoheikkila.fi>
-- Twitter: [@nikoheikkila](https://twitter.com/nikoheikkila)
+- Mastodon: [@nikoheikkila](https://mastodon.technology/@nikoheikkila)
 - Github: [@nikoheikkila](https://github.com/nikoheikkila)
 - LinkedIn: [@nikoheikkila](https://linkedin.com/in/nikoheikkila)
 
