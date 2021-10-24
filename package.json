@@ -1,6 +1,6 @@
 {
   "name": "purify-asserts",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Jest expectations for the purify-ts library",
   "main": "index.js",
   "repository": "https://github.com/nikoheikkila/purify-asserts",
