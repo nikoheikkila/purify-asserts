@@ -8,6 +8,28 @@
 
 > Jest expectations for the [**purify-ts**](https://gigobyte.github.io/purify/) library
 
+## Motivation
+
+Purify is an excellent library for functional TypeScript applications, but its algebraic data types are not so obvious to test. Specifically, the following convention examples are not easy to remember in the scope of unit tests.
+
+```ts
+expect(maybe.isJust()).toBe(true);
+expect(maybe.isNothing()).toBe(true);
+expect(maybe.extract()).toEqual("value");
+
+expect(either.isLeft()).toBe(false);
+expect(either.isRight()).toBe(true);
+expect(either.extract()).toEqual("is this success or error?");
+```
+
+Wouldn't it be more satisfying to assert expectations with the same domain language Purify speaks of? I think so.
+
+```ts
+expect(possiblyNullableMaybe).toBeJust();
+expect(justOrNothing).toBeNothing();
+expect(justOrNothing).toHaveJustValue(1);
+```
+
 ## Install
 
 ```sh
