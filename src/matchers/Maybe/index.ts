@@ -1,5 +1,7 @@
 import { Maybe } from "purify-ts";
 
+type U = unknown;
+
 const pass = (reason: string): jest.CustomMatcherResult => ({
   pass: true,
   message: () => reason,

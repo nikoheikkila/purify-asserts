@@ -2,11 +2,11 @@
   "name": "purify-asserts",
   "version": "0.3.0",
   "description": "Jest expectations for the purify-ts library",
-  "main": "index.js",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
   "repository": "https://github.com/nikoheikkila/purify-asserts",
   "author": "Niko Heikkilä <yo@nikoheikkila.fi>",
   "license": "MIT",
-  "types": "src/jest.d.ts",
   "files": [
     "dist"
   ],
@@ -15,7 +15,8 @@
   },
   "scripts": {
     "build": "tsc",
-    "release": "yarn build && np",
+    "prerelease": "yarn build",
+    "release": "np",
     "test": "jest",
     "lint": "prettier --check .",
     "format": "prettier --write ."

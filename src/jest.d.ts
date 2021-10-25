@@ -1,5 +1,3 @@
-type U = unknown;
-
 declare namespace jest {
   interface Matchers<R> {
     pass: (reason: string) => R;
