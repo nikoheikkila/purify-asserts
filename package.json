@@ -8,8 +8,7 @@
   "license": "MIT",
   "types": "src/jest.d.ts",
   "files": [
-    "dist",
-    "src/jest.d.ts"
+    "dist"
   ],
   "dependencies": {
     "@types/jest": "^27.0.2",
