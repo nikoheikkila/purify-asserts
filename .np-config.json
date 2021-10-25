@@ -1,5 +1,4 @@
 {
     "branch": "main",
-    "contents": "dist",
     "message": "chore(release): bump version to %s"
 }
