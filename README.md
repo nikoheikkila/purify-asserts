@@ -59,22 +59,22 @@ expect.extend({ toBeJust, toBeNothing });
 
 ## Examples
 
-- [Examples](./src/matchers/Maybe/index.test.ts) for using `Maybe<T>` matchers
-- Examples for using `Either<L, R>` matchers (work in progress)
-- Examples for using `MaybeAsync<T>` matchers (work in progress)
-- Examples for using `EitherAsync<L, R>` matchers (work in progress)
-- Examples for using `Tuple<F, S>` matchers (work in progress)
-- Examples for using `NonEmptyList<T>` matchers (work in progress)
-- Examples for using `Codec<T>` matchers (work in progress)
+-   [Examples](./src/matchers/Maybe/index.test.ts) for using `Maybe<T>` matchers
+-   Examples for using `Either<L, R>` matchers (work in progress)
+-   Examples for using `MaybeAsync<T>` matchers (work in progress)
+-   Examples for using `EitherAsync<L, R>` matchers (work in progress)
+-   Examples for using `Tuple<F, S>` matchers (work in progress)
+-   Examples for using `NonEmptyList<T>` matchers (work in progress)
+-   Examples for using `Codec<T>` matchers (work in progress)
 
 ## Author
 
 👤 **Niko Heikkilä <yo@nikoheikkila.fi>**
 
-- Website: <https://nikoheikkila.fi>
-- Mastodon: [@nikoheikkila](https://mastodon.technology/@nikoheikkila)
-- Github: [@nikoheikkila](https://github.com/nikoheikkila)
-- LinkedIn: [@nikoheikkila](https://linkedin.com/in/nikoheikkila)
+-   Website: <https://nikoheikkila.fi>
+-   Mastodon: [@nikoheikkila](https://mastodon.technology/@nikoheikkila)
+-   Github: [@nikoheikkila](https://github.com/nikoheikkila)
+-   LinkedIn: [@nikoheikkila](https://linkedin.com/in/nikoheikkila)
 
 ## 🤝 Contributing
 

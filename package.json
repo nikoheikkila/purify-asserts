@@ -1,33 +1,33 @@
 {
-  "name": "purify-asserts",
-  "version": "0.3.2",
-  "description": "Jest expectations for the purify-ts library",
-  "main": "./dist/index.js",
-  "types": "./types/index.d.ts",
-  "repository": "https://github.com/nikoheikkila/purify-asserts",
-  "author": "Niko Heikkilä <yo@nikoheikkila.fi>",
-  "license": "MIT",
-  "files": [
-    "dist",
-    "types/index.d.ts"
-  ],
-  "dependencies": {
-    "purify-ts": "^1.1.0"
-  },
-  "scripts": {
-    "build": "tsc",
-    "prerelease": "yarn build",
-    "release": "np",
-    "test": "jest",
-    "lint": "prettier --check .",
-    "format": "prettier --write ."
-  },
-  "devDependencies": {
-    "@types/jest": "^27.0.2",
-    "jest": "^27.3.1",
-    "np": "^7.5.0",
-    "prettier": "^2.4.1",
-    "ts-jest": "^27.0.7",
-    "typescript": "^4.4.4"
-  }
+    "name": "purify-asserts",
+    "version": "0.3.2",
+    "description": "Jest expectations for the purify-ts library",
+    "main": "./dist/index.js",
+    "types": "./types/index.d.ts",
+    "repository": "https://github.com/nikoheikkila/purify-asserts",
+    "author": "Niko Heikkilä <yo@nikoheikkila.fi>",
+    "license": "MIT",
+    "files": [
+        "dist",
+        "types/index.d.ts"
+    ],
+    "dependencies": {
+        "purify-ts": "^1.1.0"
+    },
+    "scripts": {
+        "build": "tsc",
+        "prerelease": "yarn build",
+        "release": "np",
+        "test": "jest",
+        "lint": "prettier --check .",
+        "format": "prettier --write ."
+    },
+    "devDependencies": {
+        "@types/jest": "^27.0.2",
+        "jest": "^27.3.1",
+        "np": "^7.5.0",
+        "prettier": "^2.4.1",
+        "ts-jest": "^27.0.7",
+        "typescript": "^4.4.4"
+    }
 }
