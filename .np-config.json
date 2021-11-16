@@ -1,4 +1,4 @@
 {
-    "branch": "main",
-    "message": "chore(release): bump version to %s"
+  "branch": "main",
+  "message": "chore(release): bump version to %s"
 }
