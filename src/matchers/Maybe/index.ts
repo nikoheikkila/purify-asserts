@@ -1,16 +1,7 @@
 import { Maybe } from "purify-ts";
+import { fail, pass } from "../../utils";
 
 type U = unknown;
-
-const pass = (reason: string): jest.CustomMatcherResult => ({
-  pass: true,
-  message: () => reason,
-});
-
-const fail = (reason: string): jest.CustomMatcherResult => ({
-  pass: false,
-  message: () => reason,
-});
 
 export function toBeJust(actual: Maybe<U>) {
   return actual.caseOf({
