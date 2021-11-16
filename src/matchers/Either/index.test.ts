@@ -14,4 +14,12 @@ describe("Either", () => {
   it(".not.toBeLeft", () => {
     expect(right()).not.toBeLeft();
   });
+
+  it(".toBeRight", () => {
+      expect(right()).toBeRight();
+  });
+
+  it(".not.toBeRight", () => {
+      expect(left()).not.toBeRight();
+  });
 });
